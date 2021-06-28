@@ -1,7 +1,7 @@
 # face anti spoofing
 ## requirement
 ```bash
-docker push 0105200696/silent-face-anti-spoofing:v2
+docker pull 0105200696/silent-face-anti-spoofing:v2
 ```
 ## RUN 
 ```bash
