@@ -4,17 +4,15 @@ services:
         build:
             context: ./
             dockerfile: dockerfile
-        container_name: service_facenet
+        container_name: service_face_anti_spoofing
         ports:
-            - 2331:80
+            - 5002:5002
         restart: unless-stopped
-        volumes:
-            - /MLCV/services_center/facenet:/base
         deploy:
           resources:
             reservations:
               devices:
               - driver: nvidia
                 count: 1
-                device_ids: ['2']
+                device_ids: ['0']
                 capabilities: [gpu]

@@ -9,10 +9,9 @@ import cv2
 import numpy as np
 import time
 start_time = time.time()
-#url = 'http://0.0.0.0:2341/predict'
-url = 'https://aiclub.uit.edu.vn/gpu/service/craft_ocr_fastapi/predict_binary'
+url = 'http://service.aiclub.cs.uit.edu.vn/face_anti_spoofing/predict_binary'
 ####################################
-image_path = "text_detection_test_image.png"
+image_path = "test_face.png"
 ####################################
 f = {'file': open(image_path, 'rb')}
 ####################################

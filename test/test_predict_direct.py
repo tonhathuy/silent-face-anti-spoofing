@@ -10,9 +10,9 @@ import numpy as np
 import time
 start_time = time.time()
 #url = 'http://0.0.0.0:2341/predict'
-url = 'https://aiclub.uit.edu.vn/gpu/service/craft_ocr_fastapi/predict'
+url = 'http://service.aiclub.cs.uit.edu.vn/face_anti_spoofing/predict/'
 ####################################
-image_path = "text_detection_test_image.png"
+image_path = "test_face.png"
 ####################################
 img = cv2.imread(image_path)
 is_success, buffer = cv2.imencode('.png', img)
@@ -26,3 +26,4 @@ response = requests.post(url, data = data_json, headers=headers)
 response = response.json()
 print(response)
 print('time', time.time()-start_time)
+
