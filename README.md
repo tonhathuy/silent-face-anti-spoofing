@@ -15,11 +15,3 @@ python app_v2.py
 * BACKUP_DIR: "OUTPUT/"
 * MODEL: "./model/anti_spoof_models"
 * DEVICE_ID: 0
-
-## Response template
-```bash
-	{
-	"fake" : label, 
-	"score": value
-	}
-```
