@@ -7,7 +7,7 @@ docker pull 0105200696/silent-face-anti-spoofing:v2
 ```bash
 git clone https://github.com/tonhathuy/silent-face-anti-spoofing.git
 cd silent-face-anti-spoofing
-python app_v2.py
+python service.py
 ``` 
 ## config 
 * SERVICE_IP: "0.0.0.0"
