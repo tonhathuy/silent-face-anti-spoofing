@@ -12,6 +12,5 @@ python app_v2.py
 ## config 
 * SERVICE_IP: "0.0.0.0"
 * PORT: 5002
-* BACKUP_DIR: "OUTPUT/"
 * MODEL: "./model/anti_spoof_models"
 * DEVICE_ID: 0
