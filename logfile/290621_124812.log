@@ -1,0 +1,84 @@
+2021-06-29 12:48:12.577 DEBUG selector_events - __init__: Using selector: EpollSelector
+2021-06-29 12:48:12.586 INFO server - serve: Started server process [3052]
+2021-06-29 12:48:12.587 INFO on - startup: Waiting for application startup.
+2021-06-29 12:48:12.587 INFO on - startup: Application startup complete.
+2021-06-29 12:48:12.588 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:5002 (Press CTRL+C to quit)
+2021-06-29 12:48:16.983 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-06-29 12:48:16.984 DEBUG multipart - callback: Calling on_header_field with data[54:73]
+2021-06-29 12:48:16.984 DEBUG multipart - callback: Calling on_header_value with data[75:149]
+2021-06-29 12:48:16.984 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:48:16.984 DEBUG multipart - callback: Calling on_header_field with data[151:163]
+2021-06-29 12:48:16.984 DEBUG multipart - callback: Calling on_header_value with data[165:174]
+2021-06-29 12:48:16.984 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:48:16.984 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-06-29 12:48:16.985 DEBUG multipart - callback: Calling on_part_data with data[178:19769]
+2021-06-29 12:48:16.986 DEBUG multipart - callback: Calling on_part_data with data[0:2724]
+2021-06-29 12:48:16.986 DEBUG multipart - callback: Calling on_part_end with no data
+2021-06-29 12:48:16.986 DEBUG multipart - callback: Calling on_end with no data
+2021-06-29 12:48:16.987 INFO service - predict_binary: predict_binary
+2021-06-29 12:48:25.052 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-06-29 12:48:25.052 DEBUG multipart - callback: Calling on_header_field with data[54:73]
+2021-06-29 12:48:25.053 DEBUG multipart - callback: Calling on_header_value with data[75:149]
+2021-06-29 12:48:25.053 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:48:25.053 DEBUG multipart - callback: Calling on_header_field with data[151:163]
+2021-06-29 12:48:25.053 DEBUG multipart - callback: Calling on_header_value with data[165:174]
+2021-06-29 12:48:25.054 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:48:25.054 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-06-29 12:48:25.055 DEBUG multipart - callback: Calling on_part_data with data[178:22493]
+2021-06-29 12:48:25.055 DEBUG multipart - callback: Calling on_part_end with no data
+2021-06-29 12:48:25.055 DEBUG multipart - callback: Calling on_end with no data
+2021-06-29 12:48:25.056 INFO service - predict_binary: predict_binary
+2021-06-29 12:48:26.592 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-06-29 12:48:26.592 DEBUG multipart - callback: Calling on_header_field with data[54:73]
+2021-06-29 12:48:26.592 DEBUG multipart - callback: Calling on_header_value with data[75:149]
+2021-06-29 12:48:26.593 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:48:26.593 DEBUG multipart - callback: Calling on_header_field with data[151:163]
+2021-06-29 12:48:26.593 DEBUG multipart - callback: Calling on_header_value with data[165:174]
+2021-06-29 12:48:26.593 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:48:26.594 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-06-29 12:48:26.594 DEBUG multipart - callback: Calling on_part_data with data[178:22493]
+2021-06-29 12:48:26.595 DEBUG multipart - callback: Calling on_part_end with no data
+2021-06-29 12:48:26.595 DEBUG multipart - callback: Calling on_end with no data
+2021-06-29 12:48:26.596 INFO service - predict_binary: predict_binary
+2021-06-29 13:14:05.754 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-06-29 13:14:05.755 DEBUG multipart - callback: Calling on_header_field with data[54:73]
+2021-06-29 13:14:05.755 DEBUG multipart - callback: Calling on_header_value with data[75:149]
+2021-06-29 13:14:05.755 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 13:14:05.755 DEBUG multipart - callback: Calling on_header_field with data[151:163]
+2021-06-29 13:14:05.755 DEBUG multipart - callback: Calling on_header_value with data[165:174]
+2021-06-29 13:14:05.756 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 13:14:05.756 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-06-29 13:14:05.756 DEBUG multipart - callback: Calling on_part_data with data[178:22493]
+2021-06-29 13:14:05.756 DEBUG multipart - callback: Calling on_part_end with no data
+2021-06-29 13:14:05.756 DEBUG multipart - callback: Calling on_end with no data
+2021-06-29 13:14:05.757 INFO service - predict_binary: predict_binary
+2021-06-29 13:22:43.334 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-06-29 13:22:43.334 DEBUG multipart - callback: Calling on_header_field with data[54:73]
+2021-06-29 13:22:43.334 DEBUG multipart - callback: Calling on_header_value with data[75:149]
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_header_field with data[151:163]
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_header_value with data[165:174]
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_part_data with data[178:22493]
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_part_end with no data
+2021-06-29 13:22:43.335 DEBUG multipart - callback: Calling on_end with no data
+2021-06-29 13:22:43.336 INFO service - predict_binary: predict_binary
+2021-06-29 13:24:00.110 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-06-29 13:24:00.110 DEBUG multipart - callback: Calling on_header_field with data[54:73]
+2021-06-29 13:24:00.111 DEBUG multipart - callback: Calling on_header_value with data[75:149]
+2021-06-29 13:24:00.111 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 13:24:00.111 DEBUG multipart - callback: Calling on_header_field with data[151:163]
+2021-06-29 13:24:00.111 DEBUG multipart - callback: Calling on_header_value with data[165:174]
+2021-06-29 13:24:00.111 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 13:24:00.111 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-06-29 13:24:00.112 DEBUG multipart - callback: Calling on_part_data with data[178:22493]
+2021-06-29 13:24:00.112 DEBUG multipart - callback: Calling on_part_end with no data
+2021-06-29 13:24:00.112 DEBUG multipart - callback: Calling on_end with no data
+2021-06-29 13:24:00.113 INFO service - predict_binary: predict_binary
+2021-06-29 13:31:05.707 INFO service - predict: predict
+2021-06-29 13:33:34.421 INFO service - predict: predict
+2021-06-29 13:34:16.333 INFO server - shutdown: Shutting down
+2021-06-29 13:34:16.434 INFO on - shutdown: Waiting for application shutdown.
+2021-06-29 13:34:16.435 INFO on - shutdown: Application shutdown complete.
+2021-06-29 13:34:16.435 INFO server - serve: Finished server process [3052]

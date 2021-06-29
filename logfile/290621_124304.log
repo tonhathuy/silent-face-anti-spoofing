@@ -1,0 +1,23 @@
+2021-06-29 12:43:04.433 DEBUG selector_events - __init__: Using selector: EpollSelector
+2021-06-29 12:43:04.442 INFO server - serve: Started server process [2916]
+2021-06-29 12:43:04.443 INFO on - startup: Waiting for application startup.
+2021-06-29 12:43:04.443 INFO on - startup: Application startup complete.
+2021-06-29 12:43:04.443 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:5002 (Press CTRL+C to quit)
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_header_field with data[54:73]
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_header_value with data[75:149]
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_header_field with data[151:163]
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_header_value with data[165:174]
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_header_end with no data
+2021-06-29 12:43:08.380 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-06-29 12:43:08.381 DEBUG multipart - callback: Calling on_part_data with data[178:22493]
+2021-06-29 12:43:08.381 DEBUG multipart - callback: Calling on_part_end with no data
+2021-06-29 12:43:08.381 DEBUG multipart - callback: Calling on_end with no data
+2021-06-29 12:43:08.381 INFO service - predict_binary: predict_binary
+2021-06-29 12:43:08.384 ERROR service - predict_binary: name 'MODEL_DIR' is not defined
+2021-06-29 12:43:08.385 ERROR service - predict_binary: None
+2021-06-29 12:43:46.096 INFO server - shutdown: Shutting down
+2021-06-29 12:43:46.197 INFO on - shutdown: Waiting for application shutdown.
+2021-06-29 12:43:46.198 INFO on - shutdown: Application shutdown complete.
+2021-06-29 12:43:46.199 INFO server - serve: Finished server process [2916]
