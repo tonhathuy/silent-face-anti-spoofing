@@ -107,9 +107,9 @@ async def predict(data: PredictData):
             process_image = cv2.imdecode(jpg_as_np, flags=1)
             label, value = test_face_croped(process_image)
             label = -1 if (label != 1) else 1
-            predicts = [{"fake" : label, "score": value}]
+            predicts = [{"isfake" : label, "score": value}]
         return_result = {'code': '1000', 'status': rcode.code_1000, 'data': {'predicts': predicts,
-                        'process_time': timeit.default_timer()-start_time, 'WORKER_NUM': WORKER_NUM, 'return': '1: real, -1: fake'}}
+                        'process_time': timeit.default_timer()-start_time, 'WORKER_NUM': WORKER_NUM, 'return': '-1: real, 1: fake'}}
     except Exception as e:
             logger.error(str(e))
             logger.error(str(traceback.print_exc()))
@@ -139,9 +139,9 @@ async def predict_binary(file: UploadFile = File(...)):
         process_image = cv2.imdecode(nparr, flags=1)
         label, value = test_face_croped(process_image)
         label = -1 if (label != 1) else 1
-        predicts = [{"fake" : label, "score": value}]
+        predicts = [{"isfake" : label, "score": value}]
         return_result = {'code': '1000', 'status': rcode.code_1000, 'data': {'predicts': predicts,
-                        'process_time': timeit.default_timer()-start_time, 'WORKER_NUM': WORKER_NUM, 'return': '1: real, -1: fake'}}
+                        'process_time': timeit.default_timer()-start_time, 'WORKER_NUM': WORKER_NUM, 'return': '-1: real, 1: fake'}}
     except Exception as e:
             logger.error(str(e))
             logger.error(str(traceback.print_exc()))
