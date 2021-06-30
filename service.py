@@ -51,10 +51,14 @@ class PredictData(BaseModel):
     images: Optional[List[str]] = pydantic.Field(default=None, example=None, description='List of base64 encoded images')
 #######################################
 model_test = AntiSpoofPredict(DEVICE_ID)
+for model_name in os.listdir(MODEL):
+    print(model_name)
+    model_test._load_model(os.path.join(MODEL, model_name))
 def test_face_croped(image):
     image_cropper = CropImage()
     prediction = np.zeros((1, 3))
     for model_name in os.listdir(MODEL):
+        
         h_input, w_input, model_type, scale = parse_model_name(model_name)
         param = {
             "org_img": image,
@@ -68,7 +72,7 @@ def test_face_croped(image):
             param["crop"] = False
         img = image_cropper.crop(**param)
         start = time.time()
-        prediction += model_test.predict(img, os.path.join(MODEL, model_name))
+        prediction += model_test.predict(img)
     label = np.argmax(prediction)
     value = prediction[0][label]/2
     return label, value
@@ -145,4 +149,5 @@ async def predict_binary(file: UploadFile = File(...)):
 
 if __name__ == '__main__':
     uvicorn.run(app, port=SERVICE_PORT, host=SERVICE_IP)
+
 

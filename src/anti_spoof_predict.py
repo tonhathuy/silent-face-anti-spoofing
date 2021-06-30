@@ -78,18 +78,19 @@ class AntiSpoofPredict(Detection):
             self.model.load_state_dict(state_dict)
         return None
 
-    def predict(self, img, model_path):
+    def predict(self, img):
         test_transform = trans.Compose([
             trans.ToTensor(),
         ])
         img = test_transform(img)
         img = img.unsqueeze(0).to(self.device)
-        self._load_model(model_path)
+        # self._load_model(model_path)
         self.model.eval()
         with torch.no_grad():
             result = self.model.forward(img)
             result = F.softmax(result).cpu().numpy()
         return result
+
 
 
 
